@@ -1399,6 +1399,16 @@ textarea {
   text-align: center;
 }
 
+.leadership-layout {
+  display: grid;
+  gap: 24px;
+}
+
+.leadership-chair {
+  width: calc((100% - 48px) / 3);
+  justify-self: center;
+}
+
 .person-card--spacer {
   visibility: hidden;
   pointer-events: none;
@@ -2117,6 +2127,10 @@ html[data-cookie-consent] .cookie-banner {
   .compare-grid,
   .form-grid {
     grid-template-columns: 1fr;
+  }
+
+  .leadership-chair {
+    width: 100%;
   }
 
   .grid-2 {
