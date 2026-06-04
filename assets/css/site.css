@@ -1459,6 +1459,13 @@ textarea {
   color: var(--muted);
 }
 
+.person-card .article-card__link {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  margin: 18px auto 0;
+}
+
 .office-grid {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
