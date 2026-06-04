@@ -1420,10 +1420,6 @@ textarea {
   background: linear-gradient(180deg, #f7f1e5 0%, #ece2cb 100%);
 }
 
-.leadership-team .person-card__photo {
-  width: min(84%, 320px);
-}
-
 .person-card h3 {
   margin-bottom: 8px;
   font-size: 18px;
@@ -2542,4 +2538,3 @@ html[data-cookie-consent] .cookie-banner {
     margin-top: 4px;
   }
 }
-
