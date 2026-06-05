@@ -103,11 +103,11 @@
 
           <div class="form-shell">
             <div class="section-kicker">Enquiry form</div>
-            <form>
+            <form action="mailto:info@iraaglobal.com" method="post" enctype="text/plain">
               <div class="form-grid">
                 <div class="field">
                   <label for="name">Full name</label>
-                  <input id="name" name="name" type="text" placeholder="Your name">
+                  <input id="name" name="name" type="text" placeholder="Your name" required>
                 </div>
                 <div class="field">
                   <label for="company">Company / family office</label>
@@ -115,16 +115,16 @@
                 </div>
                 <div class="field">
                   <label for="email">Email address</label>
-                  <input id="email" name="email" type="email" placeholder="name@example.com">
+                  <input id="email" name="email" type="email" placeholder="name@example.com" required>
                 </div>
                 <div class="field">
                   <label for="phone">Phone / WhatsApp</label>
-                  <input id="phone" name="phone" type="tel" placeholder="+971">
+                  <input id="phone" name="phone" type="tel" placeholder="+971" required>
                 </div>
                 <div class="field field--full">
                   <label for="service">Area of enquiry</label>
-                  <select id="service" name="service">
-                    <option>Choose a service</option>
+                  <select id="service" name="service" required>
+                    <option value="">Choose a service</option>
                     <option>Audit &amp; Assurance</option>
                     <option>Corporate Tax &amp; VAT</option>
                     <option>Business Setup</option>
@@ -135,12 +135,12 @@
                 </div>
                 <div class="field field--full">
                   <label for="message">Tell us about your situation</label>
-                  <textarea id="message" name="message" placeholder="Briefly describe the issue, timing, and jurisdictions involved."></textarea>
+                  <textarea id="message" name="message" placeholder="Briefly describe the issue, timing, and jurisdictions involved." required></textarea>
                 </div>
               </div>
               <div class="form-actions">
-                <button class="btn btn--dark" type="button">Inquiry Now</button>
-                <span class="form-note">For now, please use WhatsApp, phone, or email for a direct response.</span>
+                <button class="btn btn--dark" type="submit">Send enquiry</button>
+                <span class="form-note">This opens your email app with the enquiry details. You can also contact us directly by WhatsApp, phone, or email.</span>
               </div>
             </form>
           </div>
@@ -201,8 +201,6 @@
   <script src="assets/js/site.js"></script>
 </body>
 </html>
-
-
 
 
 

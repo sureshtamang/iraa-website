@@ -129,7 +129,6 @@ function mountSharedFooter() {
             <a href="consultation/">Book Consultation</a>
             <a href="consultation/">Appointment</a>
             <a href="contact.html">Cost Calculator</a>
-            <a href="activities-finder/">Business Activities Checker</a>
             <a href="https://share.google/u3N4MPB7iI90cxNE3" target="_blank" rel="noopener noreferrer">Get Direction</a>
             <a href="https://g.page/r/CYyKTedOLYR8EBM/review" target="_blank" rel="noopener noreferrer">Rate Us Now</a>
           </div>
@@ -642,5 +641,4 @@ initCookieBanner();
 document.querySelectorAll(".js-year").forEach((node) => {
   node.textContent = String(new Date().getFullYear());
 });
-
 
