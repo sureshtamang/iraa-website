@@ -4,6 +4,7 @@
   { href: "business-setup.html", title: "Business Setup", description: "UAE company formation and launch guidance." },
   { href: "accounting-bookkeeping.html", title: "Accounting & Bookkeeping", description: "Recurring finance support and reporting." },
   { href: "risk-regulatory-advisory.html", title: "Risk & Regulatory Advisory", description: "Model risk, validation, and AI governance." },
+  { href: "anti-crisis-management.html", title: "Anti-Crisis Management", description: "Liquidity, restructuring, and turnaround advisory." },
   { href: "india-uae-advisory.html", title: "India-UAE Advisory", description: "Cross-border structuring and NRI planning." },
   { href: "private-advisory.html", title: "Private Advisory", description: "Residency, wealth, wills, and succession." }
 ];
@@ -103,6 +104,7 @@ function mountSharedFooter() {
             <a href="business-setup.html">Business Setup</a>
             <a href="accounting-bookkeeping.html">Accounting &amp; Bookkeeping</a>
             <a href="risk-regulatory-advisory.html">Risk &amp; Regulatory Advisory</a>
+            <a href="anti-crisis-management.html">Anti-Crisis Management</a>
             <a href="india-uae-advisory.html">India-UAE Advisory</a>
             <a href="private-advisory.html">Private Advisory</a>
           </div>
@@ -641,4 +643,3 @@ initCookieBanner();
 document.querySelectorAll(".js-year").forEach((node) => {
   node.textContent = String(new Date().getFullYear());
 });
-
